@@ -1,0 +1,92 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    margin-top:5em;
+    width:60em;
+    border: 1px solid rgb(186, 168, 168);
+}
+
+th,
+td {
+    border: 1px solid rgb(186, 168, 168);
+    padding: 5px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+th {
+    background-color: rgb(234, 234, 241);
+}
+
+textarea {
+    border: 1px solid rgb(186, 168, 168);
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+td.cajaCard7{
+ width: 50%;
+}
+
+.titulo{
+    padding-top:10px;
+    padding-left: 10px;
+}
+
+.cajaCard8{
+width: 50%;
+}
+
+.form-check-inline{
+width:50px;
+}
+
+.form-check-inline2{
+width:50px;
+}
+
+.form-check-inline3{
+width:50px;
+}
+
+.accept{
+    border-radius: 5px;
+    width:160px;
+    background-color: rgb(167, 167, 167);
+    display: flex;
+    margin-bottom: 110px;
+}
+
+#message{
+    width: 100%;
+}
+
+td.botonCuadro{
+    background-color: rgb(223, 223, 223);
+}
+
+.fields{
+    padding: 1em ;
+}
+
+.messageText{
+    margin-bottom: 0px;
+}
+
+.form-control{
+    margin-top:10px;
+}
+
+.labelNotes{
+    color: grey;
+}
+
+.etiqueta00{
+    color: black;
+}
+

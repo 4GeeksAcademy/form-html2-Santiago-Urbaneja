@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <!-- your code here -->
+
+        <table>
+            <tr class="cajaTitulo">
+                <th class="titulo" colspan="100%"><h3>Payment Form Example</h3></th>
+            <tr class="cajaFields">
+            </tr>
+            <td class="fields" colspan="100%"><div class="alert alert-dark" role="alert"><label class="etiqueta00" for="">Some fields are missing</label>
+</div></td>
+            </tr>
+            <div>
+                <tr>
+                    <td class="cajaCard">Card # <br><input type="text" class="form-control" id="Card" placeholder="XXXXXXXXXXXXXXXXX" maxlength=16 autofocus></td>
+                    <td class="cajaCard1">CVC # <br><input type="text" class="form-control" id="CVC" placeholder="XXXX" maxlength="4"></td>
+                    <td class="cajaCard2">Amount <br><input type="text" class="form-control" id="Amount" placeholder="Amount"></td>
+                </tr>
+                <tr>
+                    <td class="cajaCard3">First Name<br><input type="text" class="form-control" id="firstName"></td>
+                    <td class="cajaCard4" colspan="2">Second Name<br><input type="text" class="form-control"
+                            id="lastName"></td>
+                </tr>
+                <tr>
+                    <td class="cajaCard5">City <br><input type="text" class="form-control" id="City"></td>
+                    <td class="cajaCard6"><label for="exampleDataList" class="form-label">State</label>
+                        <input class="form-control" list="datalistOptions" id="State"
+                            placeholder="Type to search...">
+                        <datalist id="datalistOptions">
+                            <option value="San Francisco">
+                            <option value="New York">
+                            <option value="Seattle">
+                            <option value="Los Angeles">
+                            <option value="Chicago">
+                        </datalist>
+                    </td>
+                    <td class="cajaCard2">Postal Code<br><input type="text" class="form-control" id="postalCode" maxlength="5"></td>
+                </tr>
+                <tr>
+                    <td class="cajaCard7"><p>We accept:</p><div class="accept">
+                        <div class="form-check form-check-inline2">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                value="option2">
+                            <label class="form-check-label" for="inlineRadio2"><i class="fa-brands fa-cc-visa"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline3">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                                value="option3">
+                            <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-discover"></i></label>
+                        </div>
+                        <div class="form-check form-check-inline4">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                                value="option4">
+                            <label class="form-check-label" for="inlineRadio3"><i class="fa-brands fa-cc-amex"></i></label>
+                        </div>
+                    
+                    </div>
+                    </td>
+                    <td class="cajaCard8" colspan="2"><p class="messageText">Message</p><textarea name="Message" class="form-control" rows="4"></textarea>
+                        <label class="labelNotes" for="Message">Add any notes here</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="botonCuadro text-end" colspan="100%">
+                        <button type="button" class="btn btn-secondary">Cancel</button>
+                        <button type="button" class="btn btn-primary">Send</button>
+                        </td>
+                </tr>
+        </table>
+    </form>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
